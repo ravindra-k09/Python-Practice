@@ -1,0 +1,26 @@
+[
+    {
+        "id": 21,
+        "title": "Product A",
+        "price": 10.5,
+        "description": "Test A",
+        "category": "Category A",
+        "image": "http://example.com/a.jpg"
+    },
+    {
+        "id": 21,
+        "title": "Product B",
+        "price": 20.0,
+        "description": "Test B",
+        "category": "Category B",
+        "image": "http://example.com/b.jpg"
+    },
+    {
+        "id": 21,
+        "title": "Product c",
+        "price": 20.0,
+        "description": "Test c",
+        "category": "Category c",
+        "image": "http://example.com/b.jpg"
+    }
+]
