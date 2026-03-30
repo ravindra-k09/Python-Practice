@@ -8,4 +8,5 @@ This test suite demonstrates core Pytest features using simple examples. It is d
 - **Fixtures**: Function and session-scoped fixtures
 - **conftest.py**: Shared fixtures across test files
 - **Coverage**: Code coverage reporting using `pytest-cov`
+- Testing Github Actions
 
