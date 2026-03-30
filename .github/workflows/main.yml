@@ -1,11 +1,16 @@
-name: Python PR Checks
+name: Python CI Pipeline
 
+# Run on push (any branch)
+# Run on pull_request (open, update, merge)
 on:
+  push:
   pull_request:
-    types: [opened, synchronize, reopened]
+    types: [opened, synchronize, reopened, closed]
 
 jobs:
   run-python-tests:
+    # Don't run on PR close unless merged
+    if: github.event.action != 'closed' || github.event.pull_request.merged == true
     runs-on: ubuntu-latest
 
     steps:
